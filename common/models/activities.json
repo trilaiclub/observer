@@ -1,0 +1,44 @@
+{
+  "name": "activities",
+  "plural": "activities",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "userid": {
+      "type": "string",
+      "required": true
+    },
+    "age": {
+      "type": "number",
+      "required": true
+    },
+    "action": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "tokens": {
+      "type": [
+        "string"
+      ]
+    },
+    "clue": {
+      "type": "string",
+      "required": true
+    },
+    "when": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
